@@ -82,13 +82,28 @@ function Contact({ isDarkMode }) {
             <div className="social-links">
               <h4>Conecte-se comigo</h4>
               <div className="socials">
-                <a href="javascript:void(0)" title="LinkedIn" className="social-link" role="button">
+                <button
+                  type="button"
+                  title="LinkedIn"
+                  className="social-link"
+                  aria-label="LinkedIn"
+                >
                   <FaLinkedin />
-                </a>
-                <a href="javascript:void(0)" title="GitHub" className="social-link" role="button">
+                </button>
+                <button
+                  type="button"
+                  title="GitHub"
+                  className="social-link"
+                  aria-label="GitHub"
+                >
                   <FaGithub />
-                </a>
-                <a href="javascript:void(0)" title="Twitter" className="social-link" role="button">
+                </button>
+                <button
+                  type="button"
+                  title="Twitter"
+                  className="social-link"
+                  aria-label="Twitter"
+                >
                   <FaTwitter />
                 </a>
               </div>

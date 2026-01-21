@@ -43,10 +43,20 @@ function Footer({ isDarkMode }) {
               <a href="tel:+5511999999999">Telefone</a>
             </li>
             <li>
-              <a href="javascript:void(0)" role="button">Política de Privacidade</a>
+              <button
+                type="button"
+                className="footer-link"
+              >
+                Política de Privacidade
+              </button>
             </li>
             <li>
-              <a href="javascript:void(0)" role="button">Termos de Uso</a>
+              <button
+                type="button"
+                className="footer-link"
+              >
+                Termos de Uso
+              </button>
             </li>
           </ul>
         </div>
@@ -55,24 +65,40 @@ function Footer({ isDarkMode }) {
           <h4>Redes Sociais</h4>
           <ul>
             <li>
-              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
+              <button
+                type="button"
+                className="footer-link"
+                aria-label="LinkedIn"
+              >
                 LinkedIn
-              </a>
+              </button>
             </li>
             <li>
-              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
+              <button
+                type="button"
+                className="footer-link"
+                aria-label="GitHub"
+              >
                 GitHub
-              </a>
+              </button>
             </li>
             <li>
-              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
+              <button
+                type="button"
+                className="footer-link"
+                aria-label="Twitter"
+              >
                 Twitter
-              </a>
+              </button>
             </li>
             <li>
-              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
+              <button
+                type="button"
+                className="footer-link"
+                aria-label="Instagram"
+              >
                 Instagram
-              </a>
+              </button>
             </li>
           </ul>
         </div>

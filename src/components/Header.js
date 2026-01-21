@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaSun,
-  FaMoon,
-} from "react-icons/fa";
+import { FaSun, FaMoon } from "react-icons/fa";
 import "./Header.css";
 
 function Header({ isDarkMode, toggleTheme }) {
