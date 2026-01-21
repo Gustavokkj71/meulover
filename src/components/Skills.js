@@ -4,8 +4,6 @@ import {
   FaChartLine,
   FaDatabase,
   FaFileAlt,
-  FaExcelAlt,
-  FaPython,
 } from "react-icons/fa";
 import "./Skills.css";
 

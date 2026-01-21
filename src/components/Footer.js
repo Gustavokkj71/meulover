@@ -43,10 +43,10 @@ function Footer({ isDarkMode }) {
               <a href="tel:+5511999999999">Telefone</a>
             </li>
             <li>
-              <a href="#">Política de Privacidade</a>
+              <a href="javascript:void(0)" role="button">Política de Privacidade</a>
             </li>
             <li>
-              <a href="#">Termos de Uso</a>
+              <a href="javascript:void(0)" role="button">Termos de Uso</a>
             </li>
           </ul>
         </div>
@@ -55,22 +55,22 @@ function Footer({ isDarkMode }) {
           <h4>Redes Sociais</h4>
           <ul>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
                 GitHub
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
                 Twitter
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="button">
                 Instagram
               </a>
             </li>

@@ -2,9 +2,6 @@ import React from "react";
 import {
   FaSun,
   FaMoon,
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
 } from "react-icons/fa";
 import "./Header.css";
 
