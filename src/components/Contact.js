@@ -105,7 +105,7 @@ function Contact({ isDarkMode }) {
                   aria-label="Twitter"
                 >
                   <FaTwitter />
-                </a>
+                </button>
               </div>
             </div>
           </div>

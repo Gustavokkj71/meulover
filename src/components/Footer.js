@@ -43,18 +43,12 @@ function Footer({ isDarkMode }) {
               <a href="tel:+5511999999999">Telefone</a>
             </li>
             <li>
-              <button
-                type="button"
-                className="footer-link"
-              >
+              <button type="button" className="footer-link">
                 Política de Privacidade
               </button>
             </li>
             <li>
-              <button
-                type="button"
-                className="footer-link"
-              >
+              <button type="button" className="footer-link">
                 Termos de Uso
               </button>
             </li>
@@ -74,11 +68,7 @@ function Footer({ isDarkMode }) {
               </button>
             </li>
             <li>
-              <button
-                type="button"
-                className="footer-link"
-                aria-label="GitHub"
-              >
+              <button type="button" className="footer-link" aria-label="GitHub">
                 GitHub
               </button>
             </li>
